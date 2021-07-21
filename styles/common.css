@@ -91,3 +91,67 @@ html {
     color: var(--primary-font-color);
     font-weight: bold;
 }
+
+
+.borde_negro{
+    background: #000;
+    height: 60px;
+}
+
+.button_play{
+    width: 130px;
+    height: 50px;
+    border-radius: 6px;
+    border-color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color);
+    color: var(--primary-background-color);
+     
+    font-weight: bolder;
+}
+
+.valorant_header{
+    display: block;
+    position: absolute;
+}
+
+.texto_header{
+    color: #ece8e1;
+    font: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+
+.button_header{
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: var(--secondary-background-color);
+    background-color: var(--secondary-background-color);
+    color: var(--primary-background-color);
+    font-weight: bolder;
+}
+
+.header_imagen{
+    object-position: center;
+    flex-wrap: wrap-reverse;
+}
+
+footer{
+    background-color: var(--thirdary-background-color);
+    padding-top: 50px;
+}
+
+.riot_imagen{
+    text-align: center;
+    margin: 20px;
+}
+
+.reconocimiento{
+    color: var(--secondary-font-color);
+    font-family: Arial;
+
+}
+
+.reconocimiento span{
+    position: relative; 
+}
