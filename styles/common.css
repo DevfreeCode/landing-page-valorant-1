@@ -93,47 +93,68 @@ html {
 }
 
 
+.section_header{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    background: var(--primary-background-color);
+}
+.valorant_header{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
 .borde_negro{
-    background: #000;
+    background: var(--thirdary-background-color);
     height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo_valorant{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
 }
 
 .button_play{
     width: 130px;
     height: 50px;
-    border-radius: 6px;
-    border-color: var(--secondary-background-color);
-    background-color: var(--secondary-background-color);
-    color: var(--primary-background-color);
-     
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
     font-weight: bolder;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
-.valorant_header{
-    display: block;
-    position: absolute;
+.imagen_valorant{
+    margin-top: 22%;
+    width: 75%;
 }
-
 .texto_header{
-    color: #ece8e1;
-    font: 800px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
+    color: var(--secondary-font-color);
+    font-family: Arial;
+    font: caption;
+    margin-top: 10px;
 }
 
 .button_header{
     width: 150px;
     height: 40px;
-    border-radius: 6px;
-    border-color: var(--secondary-background-color);
-    background-color: var(--secondary-background-color);
-    color: var(--primary-background-color);
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
     font-weight: bolder;
+    margin-top: 3%;
 }
 
 .header_imagen{
-    object-position: center;
-    flex-wrap: wrap-reverse;
+    width: 100%;
 }
 
 footer{
@@ -149,9 +170,20 @@ footer{
 .reconocimiento{
     color: var(--secondary-font-color);
     font-family: Arial;
-
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    place-content: center;
 }
 
-.reconocimiento span{
-    position: relative; 
+.alignizquierda{
+    margin-right: auto;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.alignderecha{
+    margin-left: auto;
+    padding: 15px;
+    margin-right: 50px;
 }
