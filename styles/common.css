@@ -94,9 +94,7 @@ html {
 
 
 .section_header{
-    min-height: 400px;
     width: 100%;
-    display: flex;
     background: var(--primary-background-color);
 }
 .valorant_header{
@@ -132,8 +130,8 @@ html {
 }
 
 .imagen_valorant{
-    margin-top: 22%;
-    width: 75%;
+    margin-top: 20vw;
+    width: 75vW;
 }
 .texto_header{
     color: var(--secondary-font-color);
@@ -155,6 +153,8 @@ html {
 
 .header_imagen{
     width: 100%;
+    height: auto;
+    
 }
 
 footer{
@@ -173,7 +173,6 @@ footer{
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
-    place-content: center;
 }
 
 .alignizquierda{
@@ -186,4 +185,41 @@ footer{
     margin-left: auto;
     padding: 15px;
     margin-right: 50px;
+}
+@media only screen and (max-width:500px){
+    .borde_negro{
+        height: 70px;
+    }
+    
+    .button_play{
+        height: 45px;
+        margin-right: 10px;
+        margin-top: 10px;
+        font: caption;
+        font-weight: bolder;
+    }
+
+    .imagen_valorant{
+        margin-top: 40vw;
+        width: 80vW;
+    }
+
+    .button_header{
+        height: 45px;
+        width: 200px;
+        font: caption;
+        font-weight: bolder;
+        margin-top: 7%;
+    }
+
+    .header_imagen{
+        height: max-content;
+    }
+
+    .reconocimiento{
+        place-content: center;
+    }
+    .alignderecha{
+        margin-inline: auto;
+    }
 }
