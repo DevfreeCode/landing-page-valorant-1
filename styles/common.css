@@ -91,3 +91,137 @@ html {
     color: var(--primary-font-color);
     font-weight: bold;
 }
+
+
+.section_header{
+    width: 100%;
+    background: var(--primary-background-color);
+}
+.valorant_header{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.borde_negro{
+    background: var(--thirdary-background-color);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo_valorant{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+
+.button_play{
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    font-weight: bolder;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.imagen_valorant{
+    margin-top: 20vw;
+    width: 75vW;
+}
+.texto_header{
+    color: var(--secondary-font-color);
+    font-family: Arial;
+    font: caption;
+    margin-top: 10px;
+}
+
+.button_header{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.header_imagen{
+    width: 100%;
+    height: auto;
+    
+}
+
+footer{
+    background-color: var(--thirdary-background-color);
+    padding-top: 50px;
+}
+
+.riot_imagen{
+    text-align: center;
+    margin: 20px;
+}
+
+.reconocimiento{
+    color: var(--secondary-font-color);
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.alignizquierda{
+    margin-right: auto;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.alignderecha{
+    margin-left: auto;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:700px){
+    .borde_negro{
+        height: 70px;
+    }
+    
+    .button_play{
+        height: 45px;
+        margin-right: 10px;
+        margin-top: 10px;
+        font: caption;
+        font-weight: bolder;
+    }
+
+    .imagen_valorant{
+        margin-top: 40vw;
+        width: 80vW;
+    }
+
+    .button_header{
+        height: 45px;
+        width: 200px;
+        font: caption;
+        font-weight: bolder;
+        margin-top: 7%;
+    }
+
+    .header_imagen{
+        block-size: 100vw;
+        margin-top: 10vw;
+    }
+
+    .reconocimiento{
+        place-content: center;
+    }
+    .alignderecha{
+        margin-inline: auto;
+    }
+}
