@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-font-color: #000;
+    --secondary-font-color:  #ece8e1;
+    
+    --primary-background-color: #ece8e1;
+    --secondary-background-color: #FF4655;
+    --thirdary-background-color: #000;
+
+}
+
+
+.content_2 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 5%;
+}
+
+.content_2_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.content_2_text_youragents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.content_2_text_title {
+    font-size: 7.0rem;
+    margin-bottom: 5rem;
+}
+
+.content_2_text_subtitle {
+    font-size: 2.0rem;
+    margin-bottom: 2rem;
+}
+
+.content_2_text_description {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.content_2_picture {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.wearevalorant {
+    background-color: var(--primary-background-color);
+    color: var(--primary-font-color);
+    flex-wrap: wrap;
+}
+
+
+.wearevalorant_img {
+    max-width: 40rem;
+}
+
+.youragents {
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    flex-wrap: wrap-reverse;
+}
+
+
+.youragents_img {
+    max-width: 40rem
+}
+
+.content_2_button {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    border: var(--primary-background-color);
+    color: var(--primary-font-color);
+    font-weight: bold;
+}
+
+
+.section_header{
+    width: 100%;
+    background: var(--primary-background-color);
+}
+.valorant_header{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.borde_negro{
+    background: var(--thirdary-background-color);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo_valorant{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+
+.button_play{
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    font-weight: bolder;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.imagen_valorant{
+    margin-top: 20vw;
+    width: 75vW;
+}
+.texto_header{
+    color: var(--secondary-font-color);
+    font-family: Arial;
+    font: caption;
+    margin-top: 10px;
+}
+
+.button_header{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: var(--secondary-background-color);
+    background: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.header_imagen{
+    width: 100%;
+    height: auto;
+    
+}
+
+footer{
+    background-color: var(--thirdary-background-color);
+    padding-top: 50px;
+}
+
+.riot_imagen{
+    text-align: center;
+    margin: 20px;
+}
+
+.reconocimiento{
+    color: var(--secondary-font-color);
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.alignizquierda{
+    margin-right: auto;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.alignderecha{
+    margin-left: auto;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:700px){
+    .borde_negro{
+        height: 70px;
+    }
+    
+    .button_play{
+        height: 45px;
+        margin-right: 10px;
+        margin-top: 10px;
+        font: caption;
+        font-weight: bolder;
+    }
+
+    .imagen_valorant{
+        margin-top: 40vw;
+        width: 80vW;
+    }
+
+    .button_header{
+        height: 45px;
+        width: 200px;
+        font: caption;
+        font-weight: bolder;
+        margin-top: 7%;
+    }
+
+    .header_imagen{
+        block-size: 100vw;
+        margin-top: 10vw;
+    }
+
+    .reconocimiento{
+        place-content: center;
+    }
+    .alignderecha{
+        margin-inline: auto;
+    }
+}
